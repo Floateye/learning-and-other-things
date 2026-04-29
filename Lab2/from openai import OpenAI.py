@@ -10,7 +10,7 @@ if os.path.exists(".env"):
             if "=" in line:
                 key, value = line.strip().split("=", 1)
                 os.environ[key] = value
-
+# Lab 2 of the agentic AI bootcamp
 try:
     TAVILY_API = os.getenv("TAVILY_API_KEY")
     tavily = TavilyClient(api_key = TAVILY_API)
