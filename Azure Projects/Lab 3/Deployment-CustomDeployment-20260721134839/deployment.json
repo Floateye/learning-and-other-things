@@ -1,0 +1,45 @@
+{
+  "id": "/subscriptions/859b2e39-a27c-48eb-b293-28ee2e0cc59c/resourceGroups/Az104-rg3/providers/Microsoft.Resources/deployments/CustomDeployment-20260721134839",
+  "name": "CustomDeployment-20260721134839",
+  "type": "Microsoft.Resources/deployments",
+  "properties": {
+    "templateHash": "8367553505829991770",
+    "parameters": {
+      "disk_name": {
+        "type": "String",
+        "value": "Disk-02"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2026-07-21T10:48:50.2234572Z",
+    "duration": "PT6.3950695S",
+    "correlationId": "acf0e15d-d08d-436a-8197-62f861c0eb73",
+    "providers": [
+      {
+        "namespace": "Microsoft.Compute",
+        "resourceTypes": [
+          {
+            "resourceType": "disks",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/859b2e39-a27c-48eb-b293-28ee2e0cc59c/resourceGroups/Az104-rg3/providers/Microsoft.Compute/disks/Disk-02"
+      }
+    ],
+    "validationLevel": "Template"
+  },
+  "tags": {
+    "marketplaceItemId": "Microsoft.Template"
+  }
+}

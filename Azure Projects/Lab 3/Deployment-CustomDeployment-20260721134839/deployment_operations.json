@@ -1,0 +1,31 @@
+[
+  {
+    "id": "/subscriptions/859b2e39-a27c-48eb-b293-28ee2e0cc59c/resourceGroups/Az104-rg3/providers/Microsoft.Resources/deployments/CustomDeployment-20260721134839/operations/11FE95170F76B44F",
+    "operationId": "11FE95170F76B44F",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2026-07-21T10:48:44.2573061Z",
+      "duration": "PT5.7317574S",
+      "trackingId": "bb67fec7-b450-4f47-a547-6625fe3c3d29",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/859b2e39-a27c-48eb-b293-28ee2e0cc59c/resourceGroups/Az104-rg3/providers/Microsoft.Compute/disks/Disk-02",
+        "resourceType": "Microsoft.Compute/disks",
+        "resourceName": "Disk-02"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/859b2e39-a27c-48eb-b293-28ee2e0cc59c/resourceGroups/Az104-rg3/providers/Microsoft.Resources/deployments/CustomDeployment-20260721134839/operations/08584169759616361785",
+    "operationId": "08584169759616361785",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2026-07-21T10:48:44.2573061Z",
+      "duration": "PT5.919217S",
+      "trackingId": "72dda162-4f10-4d09-836a-2f2d83ca59d3",
+      "statusCode": "OK"
+    }
+  }
+]
